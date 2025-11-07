@@ -1,3 +1,6 @@
+/*AIM: Write a program to accept 'n' numbers into an array and then calculate the sum of numbers present in odd positions and even positions respectively. */
+
+
 #include <stdio.h>
 
 int main() {
@@ -33,3 +36,11 @@ int main() {
     return 0;
 }
 
+/*
+output:
+Enter the number of elements: 6
+Enter 6 elements:
+10 20 30 40 50 60
+Sum of numbers at even positions: 90
+Sum of numbers at odd positions: 120
+*/

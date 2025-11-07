@@ -1,3 +1,6 @@
+/* Write a program which creates a structure Student which must have the attribute Avg Marks with 3 more attributes sort the list of the student in descending order using Bubble sort. */
+
+
 #include <stdio.h>
 #include <string.h>
 
@@ -60,3 +63,30 @@ int main() {
     return 0;
 }
 
+/*OUTPUT:
+Enter number of students: 3
+
+Enter details for student 1:
+Roll No: 101
+Name: kshitij
+Age: 20
+Average Marks: 78.5
+
+Enter details for student 2:
+Roll No: 102
+Name: rahul
+Age: 21
+Average Marks: 85.0
+
+Enter details for student 3:
+Roll No: 103
+Name: aditya
+Age: 19
+Average Marks: 67.25
+
+Sorted Student List (Descending by Avg Marks):
+Roll No: 102, Name: rahul, Age: 21, Avg Marks: 85.00
+Roll No: 101, Name: kshitij, Age: 20, Avg Marks: 78.50
+Roll No: 103, Name: aditya, Age: 19, Avg Marks: 67.25
+
+*/
